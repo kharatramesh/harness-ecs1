@@ -1,8 +1,14 @@
 {
     "cluster": "ecs1",
-    "serviceName": "service1",
-    "taskDefinition": "task3",
+    "serviceName": "task4-service4",
+    "taskDefinition": "task4",
+    "loadBalancers": [
+        {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:832249129843:targetgroup/tg1/062a3c1b63a8d278",
+            "containerName": "task4",
+            "containerPort": 80
+        }
+    ],
     "desiredCount": 1,
-    "role": "AWSServiceRoleForECS",
- 
+    "role": "ecsServiceRole"
 }
