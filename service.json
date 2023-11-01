@@ -1,7 +1,7 @@
 {
     "cluster": "ecs1",
-    "serviceName": "task23-service1",
-    "taskDefinition": "task23",
+    "serviceName": "task25-service1",
+    "taskDefinition": "task25",
     "desiredCount": 1,
     "networkConfiguration": {
        "awsvpcConfiguration": {
@@ -12,7 +12,7 @@
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:832249129843:targetgroup/ecs-tg1/cfd3de80863574b2",
-            "containerName": "task23",
+            "containerName": "task25",
             "containerPort": 80
        }
     ]
