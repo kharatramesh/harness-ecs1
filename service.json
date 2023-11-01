@@ -4,6 +4,5 @@
     "taskDefinition": "task1",
     "desiredCount": 1,
     "role": "AWSServiceRoleForECS",
-    "tags": [
-        "name": "service1"
+    "tags": "service1"
 }
