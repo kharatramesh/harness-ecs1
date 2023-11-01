@@ -74,7 +74,5 @@
     },
     "registeredAt": "2023-10-30T12:34:06.249Z",
     "registeredBy": "arn:aws:iam::832249129843:user/k8s-ekstraining-1",
-    "tags": [
-        "name": "task1"
-    ]
-}
+    "tags": "task1"
+    }
