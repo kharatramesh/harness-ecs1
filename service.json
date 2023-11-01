@@ -4,7 +4,7 @@
     "taskDefinition": "task4",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:832249129843:targetgroup/tg1/062a3c1b63a8d278",
+            "targetGroupArn": "tg1",
             "containerName": "task4",
             "containerPort": 80
         }
