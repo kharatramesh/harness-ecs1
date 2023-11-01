@@ -3,7 +3,7 @@
     "serviceName": "service1",
     "taskDefinition": "task1",
     "desiredCount": 1,
-    "role": "AWSServiceRoleForECS"
+    "role": "AWSServiceRoleForECS",
     "tags": [
         name: "service1"
 }
