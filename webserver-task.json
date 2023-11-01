@@ -2,10 +2,10 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "family": "task2",
+    "family": "task3",
     "containerDefinitions": [
         {
-            "name": "task2",
+            "name": "task3",
             "image": "docker.io/httpd",
             "essential": true
         }
