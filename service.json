@@ -1,8 +1,8 @@
 {
     "cluster": "ecs1",
     "serviceName": "service1",
-    "taskDefinition": "task1",
+    "taskDefinition": "task3",
     "desiredCount": 1,
     "role": "AWSServiceRoleForECS",
-    "tags": "service1"
+ 
 }
