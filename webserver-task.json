@@ -2,15 +2,15 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "family": "task25",
+    "family": "mphasis-task25",
     "containerDefinitions": [
         {
-            "name": "task25",
+            "name": "mphasis-task25",
             "image": "docker.io/httpd",
             "essential": true,
             "portMappings": [
                 {
-                    "name": "task25",
+                    "name": "mphasis-task25",
                     "containerPort": 80,
                     "hostPort": 80,
                     "protocol": "tcp",
