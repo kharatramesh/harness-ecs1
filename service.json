@@ -1,7 +1,7 @@
 {
     "cluster": "ecs1",
-    "serviceName": "task25-service1",
-    "taskDefinition": "mphasis-task25",
+    "serviceName": "task26-service1",
+    "taskDefinition": "mphasis-task26",
     "desiredCount": 1,
     "networkConfiguration": {
        "awsvpcConfiguration": {
@@ -12,7 +12,7 @@
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:832249129843:targetgroup/mphasis-tg2/68e698a4fee635ab",
-            "containerName": "mphasis-task25",
+            "containerName": "mphasis-task26",
             "containerPort": 80
        }
     ]
