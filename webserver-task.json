@@ -2,7 +2,7 @@
     "requiresCompatibilities": [
         "FARGATE"
     ],
-    "family": "mphasis-task25",
+    "family": "mphasis-task26",
     "containerDefinitions": [
         {
             "name": "mphasis-task26",
